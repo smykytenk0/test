@@ -1,0 +1,148 @@
+.all-page{
+  display: block;
+}
+.header-block{
+  background-image: url("../assets/Rectangle-top.png");
+  width: 1440px;
+  height: 655px;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  color:#FFFFFF;
+  font-style: normal;
+  font-weight: normal;
+}
+
+.header-left-side{
+  position: relative;
+  left: 130px;
+  top: 24px;
+}
+
+.company-name{
+  width: 136px;
+  height: 49px;
+  font-size: 40px;
+  line-height: 49px;
+}
+
+.company-tagline{
+  position: relative;
+  top:48px;
+  width: 586px;
+  height: 118px;
+  font-size:48px;
+  line-height: 59px;
+}
+
+.company-tagline .bold{
+  font-weight: 700;
+}
+
+.about-company{
+  position: relative;
+  top:71px;
+  height: 56px;
+  width:580px;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.views-stats{
+  position: relative;
+  top:104px;
+  background-color: #FFFFFF;
+  font-size: 16px;
+  width:154px;
+  height: 56px;
+  border-radius: 8px;
+  border: none;
+  color: #3A80BA;
+  text-align: center;
+
+}
+
+.main-content{
+  position: absolute;
+  top:655px;
+  width: 1440px;
+  height: 665px;
+}
+
+footer{
+  position: absolute;
+  background-image: url("../assets/Rectangle-bottom.png");
+  width: 1440px;
+  height: 183px;
+  top:1503px;
+  left: 0;
+}
+
+.question{
+  position: relative;
+  top:16px;
+  text-align: center;
+  height: 78px;
+  width: 580px;
+  line-height: 39px;
+  font-size: 32px;
+  left: 423px;
+  color: #1A1A1A;
+}
+
+.strong{
+  font-weight: 700;
+}
+
+.about-our-design{
+  text-align: center;
+  width: 780px;
+  height: 56px;
+  font-size: 20px;
+  line-height: 142%;
+  position: relative;
+  top:41px;
+  left: 324px;
+  color: #7E7E7E;
+}
+
+.blocks{
+  position: relative;
+  left:123px;
+  top: 80px;
+  display: flex;
+}
+
+.content-block{
+  display: block;
+  position: relative;
+  width: 380px;
+  height: 323px;
+  background-color: #FFFFFF;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
+  border-radius: 32px;
+  margin-right: 20px;
+}
+
+.block-picture{
+  position: relative;
+  background-image: url("../assets/Block-vector.png");
+  width: 106px;
+  height: 96px;
+  left:137px;
+  top:48px;
+}
+
+.block-picture img{
+  margin-top: 15%;
+  margin-left:22%;
+}
+
+.preference{
+  position: relative;
+  font-weight: 600;
+  font-size: 24px;
+  top:88px;
+  text-align: center;
+}
