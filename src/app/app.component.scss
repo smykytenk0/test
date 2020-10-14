@@ -1,15 +1,13 @@
 .all-page{
-  top:0;
-  left:0;
-  display: grid;
+  display: flex;
   flex-direction: column;
 }
 .telephone{
   position: absolute;
-  left: 64.58%;
-  right: 17.17%;
-  top: 4.79%;
-  bottom: 21.5%;
+  left: 931px;
+  top: 72px;
+  width: 280px;
+  height: 559px;
   background: url("../assets/iPhoneX.png") no-repeat;
 
 }
@@ -19,12 +17,12 @@ header{
 }
 
 .header-container{
-  width: 1200px;
+  width: 1180px;
   margin: 0 auto;
 }
 
 .header-content{
-  margin-top: 1.5%;
+  margin-top: 24px;
   font-size: 40px;
   color: #FFFFFF;
 }
@@ -34,23 +32,22 @@ header{
 }
 
 .view-button{
+  margin-top: 32px;
   background: #FFFFFF;
-  border-radius: 8px;
+  text-decoration: none;
   width: 154px;
   height: 56px;
-  color: #3A80BA;
-  font-size: 16px;
+  text-align: center;
+  border-radius:8px;
   border: none;
-  margin-bottom: 338px;
-  margin-top: 32px;
+  color: #3A80BA;
+  margin-bottom: 322px;
 }
 
-.view-button:hover{
-  background-color: aliceblue;
-}
 
 .first-block-container{
-  width: 1200px;
+
+  width: 1180px;
   margin: 0 auto;
 }
 
@@ -194,7 +191,6 @@ form{
   color: #FFFFFF;
   width: 380px;
   margin-right: 20px;
-  text-align: center;
 }
 
 .first{
@@ -203,5 +199,9 @@ form{
 }
 
 .second{
-  font-size: 16px;
+  text-align: center;
+}
+
+.third{
+  text-align: end;
 }
